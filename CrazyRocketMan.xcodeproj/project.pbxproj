@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB91F56E165F00E300DE1287 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB91F56D165F00E300DE1287 /* UIKit.framework */; };
+		DB91F570165F00E300DE1287 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB91F56F165F00E300DE1287 /* Foundation.framework */; };
+		DB91F572165F00E300DE1287 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB91F571165F00E300DE1287 /* CoreGraphics.framework */; };
+		DB91F578165F00E300DE1287 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DB91F576165F00E300DE1287 /* InfoPlist.strings */; };
+		DB91F57A165F00E300DE1287 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB91F579165F00E300DE1287 /* main.m */; };
+		DB91F57E165F00E300DE1287 /* CrazyRocketManAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB91F57D165F00E300DE1287 /* CrazyRocketManAppDelegate.m */; };
+		DB91F581165F00E300DE1287 /* CrazyRocketManViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB91F580165F00E300DE1287 /* CrazyRocketManViewController.m */; };
+		DB91F584165F00E300DE1287 /* CrazyRocketManViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB91F582165F00E300DE1287 /* CrazyRocketManViewController.xib */; };
+		DB91F590165F057600DE1287 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB91F56D165F00E300DE1287 /* UIKit.framework */; };
+		DB91F591165F057600DE1287 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB91F56F165F00E300DE1287 /* Foundation.framework */; };
+		DB91F592165F057600DE1287 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB91F571165F00E300DE1287 /* CoreGraphics.framework */; };
+		DB91F598165F057600DE1287 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DB91F596165F057600DE1287 /* InfoPlist.strings */; };
+		DB91F5B2165F0A4F00DE1287 /* ExampleTest.m in Sources */ = {isa = PBXBuildFile; fileRef = DB91F5B0165F0A4F00DE1287 /* ExampleTest.m */; };
+		DB91F5B3165F0A4F00DE1287 /* GHUnitIOSTestMain.m in Sources */ = {isa = PBXBuildFile; fileRef = DB91F5B1165F0A4F00DE1287 /* GHUnitIOSTestMain.m */; };
+		DB91F5B5165F0C8E00DE1287 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB91F5B4165F0C8E00DE1287 /* QuartzCore.framework */; };
+		DB91F5B7165F0E5400DE1287 /* GHUnitIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB91F5B6165F0E5400DE1287 /* GHUnitIOS.framework */; };
+		DB91F5C3165F103400DE1287 /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DB91F5C2165F103400DE1287 /* libOCMock.a */; };
+		DB91F5DC165F168000DE1287 /* CrazyRocketManAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB91F5D3165F168000DE1287 /* CrazyRocketManAppDelegate.m */; };
+		DB91F5DD165F168000DE1287 /* CrazyRocketManViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB91F5D5165F168000DE1287 /* CrazyRocketManViewController.m */; };
+		DB91F5DE165F168000DE1287 /* CrazyRocketManViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB91F5D6165F168000DE1287 /* CrazyRocketManViewController.xib */; };
+		DB91F5E3165F178400DE1287 /* UItest.m in Sources */ = {isa = PBXBuildFile; fileRef = DB91F5E2165F178400DE1287 /* UItest.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DB91F569165F00E300DE1287 /* CrazyRocketMan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrazyRocketMan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB91F56D165F00E300DE1287 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DB91F56F165F00E300DE1287 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DB91F571165F00E300DE1287 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DB91F575165F00E300DE1287 /* CrazyRocketMan-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CrazyRocketMan-Info.plist"; sourceTree = "<group>"; };
+		DB91F577165F00E300DE1287 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DB91F579165F00E300DE1287 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DB91F57B165F00E300DE1287 /* CrazyRocketMan-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CrazyRocketMan-Prefix.pch"; sourceTree = "<group>"; };
+		DB91F57C165F00E300DE1287 /* CrazyRocketManAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CrazyRocketManAppDelegate.h; sourceTree = "<group>"; };
+		DB91F57D165F00E300DE1287 /* CrazyRocketManAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CrazyRocketManAppDelegate.m; sourceTree = "<group>"; };
+		DB91F57F165F00E300DE1287 /* CrazyRocketManViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CrazyRocketManViewController.h; sourceTree = "<group>"; };
+		DB91F580165F00E300DE1287 /* CrazyRocketManViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CrazyRocketManViewController.m; sourceTree = "<group>"; };
+		DB91F583165F00E300DE1287 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CrazyRocketManViewController.xib; sourceTree = "<group>"; };
+		DB91F58E165F057600DE1287 /* CrazyRocketManUnitTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrazyRocketManUnitTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB91F595165F057600DE1287 /* CrazyRocketManUnitTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CrazyRocketManUnitTest-Info.plist"; sourceTree = "<group>"; };
+		DB91F597165F057600DE1287 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DB91F59B165F057600DE1287 /* CrazyRocketManUnitTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CrazyRocketManUnitTest-Prefix.pch"; sourceTree = "<group>"; };
+		DB91F5B0165F0A4F00DE1287 /* ExampleTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleTest.m; sourceTree = "<group>"; };
+		DB91F5B1165F0A4F00DE1287 /* GHUnitIOSTestMain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHUnitIOSTestMain.m; sourceTree = "<group>"; };
+		DB91F5B4165F0C8E00DE1287 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		DB91F5B6165F0E5400DE1287 /* GHUnitIOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GHUnitIOS.framework; sourceTree = "<group>"; };
+		DB91F5BC165F103400DE1287 /* NSNotificationCenter+OCMAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNotificationCenter+OCMAdditions.h"; sourceTree = "<group>"; };
+		DB91F5BD165F103400DE1287 /* OCMArg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMArg.h; sourceTree = "<group>"; };
+		DB91F5BE165F103400DE1287 /* OCMConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMConstraint.h; sourceTree = "<group>"; };
+		DB91F5BF165F103400DE1287 /* OCMock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMock.h; sourceTree = "<group>"; };
+		DB91F5C0165F103400DE1287 /* OCMockObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMockObject.h; sourceTree = "<group>"; };
+		DB91F5C1165F103400DE1287 /* OCMockRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMockRecorder.h; sourceTree = "<group>"; };
+		DB91F5C2165F103400DE1287 /* libOCMock.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libOCMock.a; sourceTree = "<group>"; };
+		DB91F5D2165F168000DE1287 /* CrazyRocketManAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrazyRocketManAppDelegate.h; sourceTree = "<group>"; };
+		DB91F5D3165F168000DE1287 /* CrazyRocketManAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrazyRocketManAppDelegate.m; sourceTree = "<group>"; };
+		DB91F5D4165F168000DE1287 /* CrazyRocketManViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrazyRocketManViewController.h; sourceTree = "<group>"; };
+		DB91F5D5165F168000DE1287 /* CrazyRocketManViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrazyRocketManViewController.m; sourceTree = "<group>"; };
+		DB91F5D7165F168000DE1287 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CrazyRocketManViewController.xib; sourceTree = "<group>"; };
+		DB91F5E2165F178400DE1287 /* UItest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UItest.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB91F566165F00E300DE1287 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB91F56E165F00E300DE1287 /* UIKit.framework in Frameworks */,
+				DB91F570165F00E300DE1287 /* Foundation.framework in Frameworks */,
+				DB91F572165F00E300DE1287 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB91F58B165F057600DE1287 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB91F590165F057600DE1287 /* UIKit.framework in Frameworks */,
+				DB91F5B7165F0E5400DE1287 /* GHUnitIOS.framework in Frameworks */,
+				DB91F591165F057600DE1287 /* Foundation.framework in Frameworks */,
+				DB91F5B5165F0C8E00DE1287 /* QuartzCore.framework in Frameworks */,
+				DB91F592165F057600DE1287 /* CoreGraphics.framework in Frameworks */,
+				DB91F5C3165F103400DE1287 /* libOCMock.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB91F55E165F00E300DE1287 = {
+			isa = PBXGroup;
+			children = (
+				DB91F5B8165F0E7A00DE1287 /* Libraries */,
+				DB91F573165F00E300DE1287 /* CrazyRocketMan */,
+				DB91F593165F057600DE1287 /* CrazyRocketManUnitTest */,
+				DB91F56C165F00E300DE1287 /* Frameworks */,
+				DB91F56A165F00E300DE1287 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB91F56A165F00E300DE1287 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB91F569165F00E300DE1287 /* CrazyRocketMan.app */,
+				DB91F58E165F057600DE1287 /* CrazyRocketManUnitTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB91F56C165F00E300DE1287 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB91F5B6165F0E5400DE1287 /* GHUnitIOS.framework */,
+				DB91F5B4165F0C8E00DE1287 /* QuartzCore.framework */,
+				DB91F56D165F00E300DE1287 /* UIKit.framework */,
+				DB91F56F165F00E300DE1287 /* Foundation.framework */,
+				DB91F571165F00E300DE1287 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DB91F573165F00E300DE1287 /* CrazyRocketMan */ = {
+			isa = PBXGroup;
+			children = (
+				DB91F5E5165F1AB200DE1287 /* Delegate */,
+				DB91F5E6165F1ABE00DE1287 /* GameView */,
+				DB91F5E8165F1AD900DE1287 /* Resources */,
+				DB91F574165F00E300DE1287 /* Supporting Files */,
+			);
+			path = CrazyRocketMan;
+			sourceTree = "<group>";
+		};
+		DB91F574165F00E300DE1287 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB91F575165F00E300DE1287 /* CrazyRocketMan-Info.plist */,
+				DB91F576165F00E300DE1287 /* InfoPlist.strings */,
+				DB91F579165F00E300DE1287 /* main.m */,
+				DB91F57B165F00E300DE1287 /* CrazyRocketMan-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DB91F593165F057600DE1287 /* CrazyRocketManUnitTest */ = {
+			isa = PBXGroup;
+			children = (
+				DB91F5CF165F168000DE1287 /* CrazyRocketMan */,
+				DB91F594165F057600DE1287 /* Supporting Files */,
+			);
+			path = CrazyRocketManUnitTest;
+			sourceTree = "<group>";
+		};
+		DB91F594165F057600DE1287 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB91F595165F057600DE1287 /* CrazyRocketManUnitTest-Info.plist */,
+				DB91F596165F057600DE1287 /* InfoPlist.strings */,
+				DB91F5B0165F0A4F00DE1287 /* ExampleTest.m */,
+				DB91F5E2165F178400DE1287 /* UItest.m */,
+				DB91F5B1165F0A4F00DE1287 /* GHUnitIOSTestMain.m */,
+				DB91F59B165F057600DE1287 /* CrazyRocketManUnitTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DB91F5B8165F0E7A00DE1287 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				DB91F5BB165F103400DE1287 /* OCMock */,
+				DB91F5C2165F103400DE1287 /* libOCMock.a */,
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+		DB91F5BB165F103400DE1287 /* OCMock */ = {
+			isa = PBXGroup;
+			children = (
+				DB91F5BC165F103400DE1287 /* NSNotificationCenter+OCMAdditions.h */,
+				DB91F5BD165F103400DE1287 /* OCMArg.h */,
+				DB91F5BE165F103400DE1287 /* OCMConstraint.h */,
+				DB91F5BF165F103400DE1287 /* OCMock.h */,
+				DB91F5C0165F103400DE1287 /* OCMockObject.h */,
+				DB91F5C1165F103400DE1287 /* OCMockRecorder.h */,
+			);
+			path = OCMock;
+			sourceTree = "<group>";
+		};
+		DB91F5CF165F168000DE1287 /* CrazyRocketMan */ = {
+			isa = PBXGroup;
+			children = (
+				DB91F5D2165F168000DE1287 /* CrazyRocketManAppDelegate.h */,
+				DB91F5D3165F168000DE1287 /* CrazyRocketManAppDelegate.m */,
+				DB91F5D4165F168000DE1287 /* CrazyRocketManViewController.h */,
+				DB91F5D5165F168000DE1287 /* CrazyRocketManViewController.m */,
+				DB91F5D6165F168000DE1287 /* CrazyRocketManViewController.xib */,
+			);
+			path = CrazyRocketMan;
+			sourceTree = SOURCE_ROOT;
+		};
+		DB91F5E5165F1AB200DE1287 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				DB91F57C165F00E300DE1287 /* CrazyRocketManAppDelegate.h */,
+				DB91F57D165F00E300DE1287 /* CrazyRocketManAppDelegate.m */,
+			);
+			name = Delegate;
+			sourceTree = "<group>";
+		};
+		DB91F5E6165F1ABE00DE1287 /* GameView */ = {
+			isa = PBXGroup;
+			children = (
+				DB91F57F165F00E300DE1287 /* CrazyRocketManViewController.h */,
+				DB91F580165F00E300DE1287 /* CrazyRocketManViewController.m */,
+				DB91F582165F00E300DE1287 /* CrazyRocketManViewController.xib */,
+			);
+			name = GameView;
+			sourceTree = "<group>";
+		};
+		DB91F5E8165F1AD900DE1287 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB91F568165F00E300DE1287 /* CrazyRocketMan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB91F587165F00E300DE1287 /* Build configuration list for PBXNativeTarget "CrazyRocketMan" */;
+			buildPhases = (
+				DB91F565165F00E300DE1287 /* Sources */,
+				DB91F566165F00E300DE1287 /* Frameworks */,
+				DB91F567165F00E300DE1287 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CrazyRocketMan;
+			productName = CrazyRocketMan;
+			productReference = DB91F569165F00E300DE1287 /* CrazyRocketMan.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DB91F58D165F057600DE1287 /* CrazyRocketManUnitTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB91F5A5165F057600DE1287 /* Build configuration list for PBXNativeTarget "CrazyRocketManUnitTest" */;
+			buildPhases = (
+				DB91F58A165F057600DE1287 /* Sources */,
+				DB91F58B165F057600DE1287 /* Frameworks */,
+				DB91F58C165F057600DE1287 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CrazyRocketManUnitTest;
+			productName = CrazyRocketManUnitTest;
+			productReference = DB91F58E165F057600DE1287 /* CrazyRocketManUnitTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB91F560165F00E300DE1287 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CrazyRocketMan;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Regie G. Pinat";
+			};
+			buildConfigurationList = DB91F563165F00E300DE1287 /* Build configuration list for PBXProject "CrazyRocketMan" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DB91F55E165F00E300DE1287;
+			productRefGroup = DB91F56A165F00E300DE1287 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB91F568165F00E300DE1287 /* CrazyRocketMan */,
+				DB91F58D165F057600DE1287 /* CrazyRocketManUnitTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB91F567165F00E300DE1287 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB91F578165F00E300DE1287 /* InfoPlist.strings in Resources */,
+				DB91F584165F00E300DE1287 /* CrazyRocketManViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB91F58C165F057600DE1287 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB91F598165F057600DE1287 /* InfoPlist.strings in Resources */,
+				DB91F5DE165F168000DE1287 /* CrazyRocketManViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB91F565165F00E300DE1287 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB91F57A165F00E300DE1287 /* main.m in Sources */,
+				DB91F57E165F00E300DE1287 /* CrazyRocketManAppDelegate.m in Sources */,
+				DB91F581165F00E300DE1287 /* CrazyRocketManViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB91F58A165F057600DE1287 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB91F5B2165F0A4F00DE1287 /* ExampleTest.m in Sources */,
+				DB91F5B3165F0A4F00DE1287 /* GHUnitIOSTestMain.m in Sources */,
+				DB91F5DC165F168000DE1287 /* CrazyRocketManAppDelegate.m in Sources */,
+				DB91F5DD165F168000DE1287 /* CrazyRocketManViewController.m in Sources */,
+				DB91F5E3165F178400DE1287 /* UItest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DB91F576165F00E300DE1287 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB91F577165F00E300DE1287 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DB91F582165F00E300DE1287 /* CrazyRocketManViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB91F583165F00E300DE1287 /* en */,
+			);
+			name = CrazyRocketManViewController.xib;
+			sourceTree = "<group>";
+		};
+		DB91F596165F057600DE1287 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB91F597165F057600DE1287 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DB91F5D6165F168000DE1287 /* CrazyRocketManViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB91F5D7165F168000DE1287 /* en */,
+			);
+			name = CrazyRocketManViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB91F585165F00E300DE1287 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DB91F586165F00E300DE1287 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB91F588165F00E300DE1287 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CrazyRocketMan/CrazyRocketMan-Prefix.pch";
+				INFOPLIST_FILE = "CrazyRocketMan/CrazyRocketMan-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DB91F589165F00E300DE1287 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CrazyRocketMan/CrazyRocketMan-Prefix.pch";
+				INFOPLIST_FILE = "CrazyRocketMan/CrazyRocketMan-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		DB91F5A6165F057600DE1287 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CrazyRocketManUnitTest/CrazyRocketManUnitTest-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/Libraries/**";
+				INFOPLIST_FILE = "CrazyRocketManUnitTest/CrazyRocketManUnitTest-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/Libraries",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DB91F5A7165F057600DE1287 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CrazyRocketManUnitTest/CrazyRocketManUnitTest-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/Libraries/**";
+				INFOPLIST_FILE = "CrazyRocketManUnitTest/CrazyRocketManUnitTest-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/Libraries",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB91F563165F00E300DE1287 /* Build configuration list for PBXProject "CrazyRocketMan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB91F585165F00E300DE1287 /* Debug */,
+				DB91F586165F00E300DE1287 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB91F587165F00E300DE1287 /* Build configuration list for PBXNativeTarget "CrazyRocketMan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB91F588165F00E300DE1287 /* Debug */,
+				DB91F589165F00E300DE1287 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DB91F5A5165F057600DE1287 /* Build configuration list for PBXNativeTarget "CrazyRocketManUnitTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB91F5A6165F057600DE1287 /* Debug */,
+				DB91F5A7165F057600DE1287 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB91F560165F00E300DE1287 /* Project object */;
+}
